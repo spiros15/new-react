@@ -8,6 +8,7 @@ import Landing_Page from "./Components/Landing_Page/LandingPage.js";
 import Navbar from './Components/Navbar/Navbar';
 import ReviewForm from "./Components/ReviewForm/ReviewForm"
 import Home from './Components/Home/Home';
+import InstantConsultation from './Components/InstantConsultation/InstantConsultation';
 import Layout from "./Components/Landing_Page/LandingPage";
 
 
@@ -19,6 +20,7 @@ function App() {
             <Navbar/>
                 <Routes>
                 <Route path="/" element={<Layout/>}/>
+                <Route path="/InstantConsultation" element={<InstantConsultation/>} />
                 <Route path="/Home" element={<Home/>} />
                 <Route path="/SignUp" element={<SignUp/>}/>
                 <Route path="/Login" element={<Login/>}/>
